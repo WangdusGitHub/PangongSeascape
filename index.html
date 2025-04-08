@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.00">
+
+    <title>Pangong Seascape Cottage</title>
+    <link rel="icon" href="Pangong-Tso-117.jpg" type="image/jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+  </style>
+</head>
+<body>
+    <div class="wrap">
+
+        <!------------------------------- navigation --------------------------------->
+
+        <nav>
+            <div class="icon">
+                <div class="icon-before" onclick="ShowMenu()">
+                    <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+                </div>
+                <div class="icon-after" onclick="HideMenu()">
+                    <i class="fa-solid fa-xmark" style="color: #000000;"></i>
+                </div>
+            </div>
+            <div class="menu-page">
+                <div class="menu">
+                    <ul>
+                        <li><a href="#firstpage" onclick="HideMenu()">Home</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li class="have-overview"><a href="https://www.lehladakhindia.com/pangong-tso-lake/" onclick="HideMenu()">Pangong Tso</a>
+                            <div class="overview" id="pangong-menu">
+                                <div class="image-overview">
+                                    <img src="Pangong-Tso-117.jpg" alt="">
+                                </div>
+                                <div class="menu-description">
+                                    <p>Pangong Tso Lake, also known as Pangong Lake, is a spectacular saltwater lake situated 
+                                        at an elevation of 4,350 meters (14,270 feet) on the 
+                                        Indo-Tibetan border. It spans approximately 160 kilometers 
+                                        in area, with one-third lying within Indian territory and 
+                                        the remaining two-thirds in China. The lake’s serene beauty,
+                                        color-changing waters, and picturesque landscapes make it a
+                                        must-visit destination in Leh-Ladakh.🏞️🌅 </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>Stay <i class="fa-solid fa-angle-up"></i>
+                            <ul class="sub-menu">
+                                <li class="have-overview"><a href="#view" onclick="HideMenu()">View</a>
+                                    <div class="overview stay-menu">
+                                        <div class="image-overview" >
+                                            <img src="images/4109608716_b8795a7419_b.jpg" alt="">
+                                        </div>
+                                        <div class="menu-description">
+                                            <p>Our cottage is located just near Pangong Lake, 
+                                                Presenting you the bext view of Lake. <br>
+                                            You can also watch beautiful sunrise at morning with beautiful lake reflaction.</p>
+                                        </div>
+                                    </div></li>
+                                <li class="have-overview"><a href="#water" onclick="HideMenu()">Hot-Water</a>
+                                    <div class="overview stay-menu">
+                                        <div class="image-overview" >
+                                            <img src="images/bathroom.jpg" alt="">
+                                        </div>
+                                        <div class="menu-description">
+                                            <p>As mentionaed, usually temperature near Pangong Tso remain colder, 
+                                                therefore we have 24/7 hot water aailable for our customers.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="have-overview"><a href="#bed" onclick="HideMenu()">Sleep</a>
+                                    <div class="overview stay-menu">
+                                        <div class="image-overview" >
+                                            <img src="images/bedroom.jpg" alt="">
+                                        </div>
+                                        <div class="menu-description">
+                                            <p>The minimum temperature during the summer will range around five degrees (5°C).
+                                                So to keep you warm, we have warm bads 👍.
+                                            </p>
+                                        </div>
+                                    </div></li>
+                                    <hr>
+                            </ul>
+                        </li>
+                        <li><a href="#meal" onclick="HideMenu()">Meal</a></li>
+                        <!-- <li>Pricing <i class="fa-solid fa-angle-up"></i>
+                            <ul class="sub-menu">
+                                <li>With Meal</li>
+                                <li>Without Meal</li>
+                                <hr>
+                            </ul>
+                        </li> -->
+                        <li><a href="#contact" onclick="HideMenu()">contact-us</a></li>
+                        <hr>
+                    </ul>
+                </div>
+                <div class="hide-menu" onclick="HideMenu()"></div>
+            </div>
+        </nav>
+
+        <!------------------------------- firstpage ---------------------------------->
+
+        <div id="firstpage" class="page">
+            <video autoplay muted loop width="100%" height="100%" 
+            src="Pangong Tso Video.mp4" poster="Pangong-Tso-117.jpg"></video>
+            <div class="social-media">
+                <ul>
+                    <li><a href="https://www.instagram.com/seascape__cottage?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a></li>
+                    <li><a href="https://www.facebook.com/pangongseascapecottage"><i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i></a></li>
+                    <li><a href="https://twitter.com/PangongC38177"><i class="fa-brands fa-twitter" style="color: #ffffff;"></i></a></li>
+                </ul>
+            </div>
+            <div class="name">
+                <h1>Pangong Seascape</h1>
+                <p>cottage</p>
+            </div>
+            <div class="banner">
+                <p style="text-decoration: underline;"><a href="#contact">Contact Us</a></p>
+                <p>and book your cottage</p>
+            </div>
+            <button class="feedback-button"><a href="#feedbacks">feedbacks </a><i class="fa-solid fa-chevron-down" style="color: #000000;"></i></button>
+        </div>
+
+        <!---------------------------- details section ------------------------------->
+
+        <div id="view" class="about-us page">
+            <div class="facilities">
+                <div class="title fade-in-start">Beautiful View</div>
+                <div class="image fade-in">
+                    <!-- <div class="vdo"><video src="Pangong Tso Video.mp4" autoplay muted loop></video></div> -->
+                    
+                    <img src="images/4109608716_b8795a7419_b.jpg">
+                </div>
+                <div class="description fade-in">
+                    <p>Our cottage is located just near Pangong Lake, 
+                        Presenting you the bext view of Lake. <br>
+                    You can also watch beautiful sunrise at morning with beautiful lake reflaction.</p>
+                </div>
+            </div>
+        </div>
+        <div id="bed" class="about-us page">
+            <div class="facilities">
+                <div class="title fade-in-start">Double-Bad</div>
+                <div class="description fade-in">
+                    <p>The minimum temperature during the summer will range around five degrees (5°C).
+                        So to keep you warm, we have warm bads 👍.
+                    </p>
+                </div>
+                <div class="image fade-in">
+                    <img src="images/bedroom2.jpg">
+                </div>
+            </div>
+        </div>
+        <div id="water" class="about-us page">
+            <div class="facilities">
+                <div class="title fade-in-start">24/7 Hot water</div>
+                <div class="image fade-in">
+                    <img src="images/bathroom.jpg">
+                </div>
+                <div class="description fade-in">
+                    <p>As mentionaed, usually temperature near Pangong Tso remain colder, 
+                        therefore we have 24/7 hot water aailable for our customers.</p>
+
+                </div>
+            </div>
+        </div>
+        <div id="dinning" class="about-us page">
+            <div class="facilities">
+                <div class="title fade-in-start">Dinning</div>
+                <div class="description fade-in">
+                    <p>We also serve two time meals with beverages and a welcome drink/tea.</p>
+                </div>
+                <div class="image fade-in">
+                    <img src="images/dinning3.jpg">
+                </div>
+            </div>
+        </div>
+
+        <!----------------------------- meal-page ------------------------------------>
+
+        <div class="meal" id="meal">
+            <h2 class="fade-in-start">Meal-available</h2>
+            <div class="meal-list">
+                <div class="breakfast">
+                <h2>Breakfast</h2>
+                <ul class="food-list">
+                    <li class="fade-in-start">Aloo Paratha</li>
+                    <li class="fade-in-start">Plain Paratha</li>
+                    <li class="fade-in-start">Bread Toast</li>
+                    <li class="fade-in-start">Bread Jam and Butter</li>
+                    <li class="fade-in-start">Bread Omellate</li>
+                    <li class="fade-in-start">Cornflach with Milk</li>
+                    <li class="fade-in-start">Puri and Chola</li>
+                </ul>
+            </div>
+            <div class="dinner">
+                <h2>Dinner</h2>
+                <ul class="food-list">
+                    <li class="fade-in-start">Rice</li>
+                    <li class="fade-in-start">Dal</li>
+                    <li class="fade-in-start">Vegetable- Mix/Aloo Matar</li>
+                    <li class="fade-in-start">Roti</li>
+                    <li class="fade-in-start">Salad</li>
+                    <li class="fade-in-start">Sweet desh</li>
+                    <li class="fade-in-start">Hot water</li>
+                </ul>
+            </div>
+        </div>
+            </div>
+
+        <!-------------------------------- feedbacks ---------------------------------->
+
+        <div id="feedbacks">
+            <div class="feedback-title fade-in-start">Feedbacks</div>
+            <div class="feedback-box">
+                <div class="feedback-note fade-in-right">
+                    <p>Thanks for a lovely and warm welcome into your cottage!! We will definately come back. :) </p>
+                    <h4>- Nathan &nsc; Nayanaka</h4>
+                </div>
+                <div class="feedback-note fade-in-right">
+                    <p>Had such a great time... Dinner was Fabukous</p>
+                    <h4>- Anand - Pune</h4>
+                </div>
+                <div class="feedback-note fade-in-right">
+                    <p>Thankyou for the wonderful stay and great hospility. We will definatily come back if we visit Ladakh again. <br> Thankyou</p>
+                    <h4>- Nayanaka</h4>
+                </div>
+                <div class="feedback-note fade-in-right">
+                    <p>Superb service, Nice Staff, Awesome everything</p>
+                    <h4>- Chetan Sanklecha</h4>
+                </div>
+                <div class="feedback-note fade-in-right">
+                    <p>Had a pleasent stay at Pangong seas Cafe. <br> Thanks to Chuki for the extra help.</p>
+                    <h4>Anonymous</h4>
+                </div>
+            </div>
+        </div>
+
+        <!----------------------------- footer section -------------------------------->
+
+        <footer id="footer" class="page">
+            <div class="banner-footer fade-in-end">
+                <!-- <p style="text-decoration: underline;"><a href="practice.html">Book now</a></p> -->
+                <p>PangongSeascape.com</p>
+            </div>
+            <hr>
+            <div class="contact" id="contact">
+                <div class="let-us">
+                    <h2 class="fade-in-start">Let Us Contact You:</h2>
+                    <form action="https://api.web3forms.com/submit" method="POST">
+
+                        <input class="fade-in-start" type="hidden" name="access_key" value="2df24ddc-4a08-4dca-9fc2-8d58e9ac9642">
+                        <!-- <label for="name">name</label> -->
+                        <input class="fade-in-start" type="text" name="name" placeholder="Name" required>
+
+                        <!-- <label for="email">email</label> -->
+                        <input class="fade-in-start" type="email" name="email" placeholder="Email" required>
+
+                        <!-- <label for="phone_no">P. no.: </label> -->
+                        <input class="fade-in-start" type="tel" name="phone_no" placeholder="Ph.No." required>
+                        <div>
+                            <button type="submit" class="button-17 fade-in-left" role="button">Send</button>
+                            <button type="reset" class="button-17 fade-in-right" role="button">Clear</button> 
+                        </div>                      
+                    </form>
+                </div>
+                <div class="or">or</div>
+                <div class="contact-us">
+                    <h2 class="fade-in-start">Contact Us:</h2>
+                    <p class="fade-in-start"><b>tel.no.:</b><a style="color: #000000;" href="tel:+919484243010">&nbsp;9484243010</a></p>
+                    <p class="fade-in-start"><b>Whatsapp:</b><a style="color: #000000;" href="https://wa.me/9484243010">&nbsp;9484243010</a></p>
+                    <p class="fade-in-start"><b>Email: </b><a style="color: #000000;" href="mailto:pangongseascape@gmail.com">&nbsp;pangongseascape@gmail.com</a></p>
+                    <div class="social-media-footer">
+                        <ul class="fade-in">
+                            <li><a href="https://www.instagram.com/seascape__cottage?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fa-brands fa-instagram" style="color: #000000;"></i></a></li>
+                            <li><a href="https://www.facebook.com/pangongseascapecottage"><i class="fa-brands fa-facebook-f" style="color: #000000;"></i></a></li>
+                            <li><a href="https://twitter.com/PangongC38177"><i class="fa-brands fa-twitter" style="color: #000000;"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="copyrights">
+                <p>Copyright © 2024 PangongSeascape.com. All rights reserved.
+                </p>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
